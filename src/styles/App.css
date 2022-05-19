@@ -1,0 +1,31 @@
+@import "antd/dist/antd.css";
+
+.ant-layout-content {
+    height: 100vh;
+}
+
+.ant-form {
+    margin: 30px 0 15px;
+}
+
+.ant-list-item {
+    padding: 4px 16px !important;
+}
+
+.anticon-close {
+    color: red;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.completed-list .ant-checkbox + span {
+    text-decoration: line-through;
+}
+
+.completed-list .anticon-close {
+    color: grey;
+}
+
+.completed-list .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: grey;
+}
